@@ -62,6 +62,66 @@ const data = [
   },
   // Add more rows as needed
 ];
+const columns2 = [
+  { headerName: "Client Name", field: "clientName" },
+  { headerName: "Document Name", field: "documentName" },
+  { headerName: "Date & Time", field: "dateTime" },
+  { headerName: " Latest update", field: "updateTime" },
+  { headerName: "Action", field: "action" },
+];
+
+const data2 = [
+  {
+    clientName: "Oliver",
+    documentName: "Logo Agreement",
+    dateTime: "15-Aug-2024, 11:15 AM",
+    updateTime: "15-Aug-2024, 11:15 AM",
+    action: "view",
+  },
+  {
+    clientName: "Oliver",
+    documentName: "Logo Agreement",
+    dateTime: "15-Aug-2024, 11:15 AM",
+    updateTime: "15-Aug-2024, 11:15 AM",
+    action: "view",
+  },
+  {
+    clientName: "Oliver",
+    documentName: "Logo Agreement",
+    dateTime: "15-Aug-2024, 11:15 AM",
+    updateTime: "15-Aug-2024, 11:15 AM",
+    action: "view",
+  },
+  {
+    clientName: "Oliver",
+    documentName: "Logo Agreement",
+    dateTime: "15-Aug-2024, 11:15 AM",
+    updateTime: "15-Aug-2024, 11:15 AM",
+    action: "view",
+  },
+  {
+    clientName: "Oliver",
+    documentName: "Logo Agreement",
+    dateTime: "15-Aug-2024, 11:15 AM",
+    updateTime: "15-Aug-2024, 11:15 AM",
+    action: "view",
+  },
+  {
+    clientName: "Oliver",
+    documentName: "Logo Agreement",
+    dateTime: "15-Aug-2024, 11:15 AM",
+    updateTime: "15-Aug-2024, 11:15 AM",
+    action: "view",
+  },
+  {
+    clientName: "Oliver",
+    documentName: "Logo Agreement",
+    dateTime: "15-Aug-2024, 11:15 AM",
+    updateTime: "15-Aug-2024, 11:15 AM",
+    action: "view",
+  },
+  // Add more rows as needed
+];
 
 export default function DashBoard() {
   return (
@@ -127,8 +187,8 @@ export default function DashBoard() {
       <div className="grid grid-cols-12 gap-4 md:gap-6 2xl:gap-7">
         <Table2
           title="New Supplier Document Requests"
-          columns={columns}
-          data={data}
+          columns={columns2}
+          data={data2}
         />
       </div>
     </>

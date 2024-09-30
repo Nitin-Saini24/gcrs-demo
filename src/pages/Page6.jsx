@@ -67,15 +67,77 @@ const Page6 = ({ data, columns }) => {
                   </tr>
                 </thead>
               </table>
-              <table className="">
-                <tbody>
-                  <tr>
-                    <td className="">Client Name</td>
-                    <td className="">Company Name</td>
-                    <td className="">Action</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="max-w-full max-h-48 overflow-x-auto no-scrollbar-w">
+                <table className="w-full text-center">
+                  <tbody>
+                    <tr>
+                      <td className="w-[20%]">Client Name</td>
+                      <td className="w-[50%]">Company Name</td>
+                      <td className="w-[30%]">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                    <tr>
+                      <td className="">Client Name</td>
+                      <td className="">Company Name</td>
+                      <td className="">Action</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               {/* <Table2 data={data} columns={columns} /> */}
             </div>
           </div>

@@ -26,6 +26,7 @@ const SidebarItem = ({
         alt={`${item.title} Icon`}
         style={{ width: "18px", height: "18px" }}
       />
+      {/* <span>{item.icon}</span> */}
       <span
         className={`${!isOpen ? "opacity-0" : "opacity-100"}`}
         style={{ transition: "opacity 0.3s" }}

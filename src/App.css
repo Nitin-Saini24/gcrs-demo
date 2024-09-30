@@ -103,6 +103,7 @@
 
 .no-scrollbar-w::-webkit-scrollbar {
 width: 2px;
+height: 8px;
 
 }
 

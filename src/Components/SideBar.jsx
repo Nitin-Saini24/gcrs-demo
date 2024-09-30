@@ -199,7 +199,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
           <svg
             width="20"
             height="18"
-            viewBox="0 0 20 18"
+            viewBox="0 0 20 18" 
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -230,7 +230,6 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                 >
                   {(handleClick, open) => (
                     <>
-                      {console.log("item", index, item.path)}
                       <SidebarItem
                         item={{
                           ...item,
@@ -245,7 +244,6 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                         sidebarExpanded={sidebarExpanded}
                         setSidebarExpanded={setSidebarExpanded}
                       />
-                      {/* {console.log("item", index, pathname.includes("/"))} */}
                       {item.subItems.length > 0 && (
                         <div
                           className={`transform overflow-hidden ${
